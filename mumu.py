@@ -1,78 +1,72 @@
-#!/usr/bin/python2
-
 #coding=utf-8
 
-#The Credit For This Code Goes To Mark Cornel
+#!/usr/bin/python2
 
-#If You Wanna Take Credits For This Code, Please Look Yourself Again...
+#decompile by star-vampire
 
-#Reserved2020
+try:
 
-import os,sys,time,datetime,random,hashlib,re,threading,json,urllib,cookielib,requests,mechanize
+    import os,sys,time,datetime,re,random,hashlib,threading,json,getpass,urllib,cookielib,requests
 
-from multiprocessing.pool import ThreadPool
+    from multiprocessing.pool import ThreadPool
+
+except ImportError:
+
+    os.system("pip2 install requests")
+
+    os.system("python2 cracker.indirect")
+    
+os.system("clear")
+
+
+
+if not os.path.isfile("/data/data/com.termux/files/usr/bin/node"):
+
+    os.system("apt update && apt install nodejs -y")
 
 from requests.exceptions import ConnectionError
 
-from mechanize import Browser
+os.system("git pull")
+
+if not os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("cd ..... && pip install progress")
+
+    os.system("cd ..... && npm install")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+    time.sleep(10)
+
+elif os.path.isfile("/data/data/com.termux/files/home/Crack-world/...../node_modules/bytes/index.js"):
+
+    os.system("fuser -k 5000/tcp &")
+
+    os.system("#")
+
+    os.system("cd ..... && node index.js &")
+
+    os.system("clear")
+
+bd=random.randint(2e7, 3e7)
+
+sim=random.randint(2e4, 4e4)
+
+header={'x-fb-connection-bandwidth': repr(bd),'x-fb-sim-hni': repr(sim),'x-fb-net-hni': repr(sim),'x-fb-connection-quality': 'EXCELLENT','x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA','user-agent':'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16','content-type': 'application/x-www-form-urlencoded','x-fb-http-engine': 'Liger'}
 
 reload(sys)
 
-sys.setdefaultencoding('utf8')
+sys.setdefaultencoding("utf-8")
 
-br = mechanize.Browser()
+c = "\033[1;92m"
 
-br.set_handle_robots(False)
+c2 = "\033[0;97m"
 
-br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(),max_time=1)
-
-br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/32.0.2254/85. U; id) Presto/2.12.423 Version/12.16')]
-
-def keluar():
-
-	print "\x1b[1;91mExit"	os.sys.exit()
-
-def acak(b):
-
-    w = 'ahtdzjc'
-
-    d = ''
-
-    for i in x:
-
-        d += '!'+w[random.randint(0,len(w)-1)]+i
-
-    return cetak(d)
-
-def cetak(b):
-
-    w = 'ahtdzjc'
-
-    for i in w:
-
-        j = w.index(i)
-
-        x= x.replace('!%s'%i,'\033[%s;1m'%str(31+j))
-
-    x += '\033[0m'
-
-    x = x.replace('!0','\033[0m')
-
-    sys.stdout.write(x+'\n')
-
-def jalan(z):
-
-	for e in z + '\n':
-
-		sys.stdout.write(e)
-
-		sys.stdout.flush()
-
-		time.sleep(0.01)
-
-#Dev:Mark_Cornel
-
-##### LOGO #####
+c3 = "\033[1;91m"
 
 logo = """
 
