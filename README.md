@@ -32,7 +32,7 @@ INBOX ME FOR TOOL USERNAME AND PASS
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://wa.me/+2347013107449" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/Whatsapp.svg" alt="+2347013107449" height="30" width="40" /></a>
+<a href="https://wa.me/+2347013107449" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/WhatsApp.svg" alt="+2347013107449" height="30" width="40" /></a>
 <a href="https://www.youtube.com/c/mark-tech" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="mark-tech" height="30" width="40" /></a>
 </p>
 
